@@ -51,7 +51,11 @@ int main()
          for(int i=0;i<n;i++ ){
             ans =ans+v[i];        
             }
-            cout<<ans<<endl;
+           if(ans<1e6){ cout<<ans<<endl;
+           }
+           else{
+               cout<<1e6<<endl;
+           }
         }
     }
 }
