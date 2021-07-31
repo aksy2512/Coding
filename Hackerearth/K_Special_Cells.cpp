@@ -44,6 +44,6 @@ int main(){
               
             ans=(ans+p*npsdp(n-x,m-y))%(max);
        }
-       cout<<ans;
+       cout<<ans<<endl;
     }
 }
